@@ -1,0 +1,44 @@
+command
+takeoff
+delay 3
+forward 100
+delay 3
+back 80
+delay 5
+up 20
+delay 4
+cw 45
+delay 4
+cw 45
+delay 4
+cw 45
+delay 4
+cw 45
+delay 4
+down 20
+delay 7
+cw 90
+delay 5
+cw 90
+delay 5
+ccw 180
+delay 4
+ccw 180
+delay 6
+up 20
+delay 4
+back 20
+delay 4
+cw 360
+delay 7
+flip b
+delay 6
+flip f
+delay 6
+flip l
+delay 6
+flip r
+delay 3
+battery?
+delay 2
+land

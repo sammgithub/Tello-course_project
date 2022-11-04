@@ -1,0 +1,23 @@
+command
+takeoff
+baro?
+delay 1
+height?
+delay 2
+up 300
+height?
+delay 1
+baro?
+delay 3
+up 400
+height?
+baro?
+delay 3
+up 350
+height?
+delay 3
+baro?
+down 100
+delay1
+
+land

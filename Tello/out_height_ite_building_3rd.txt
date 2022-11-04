@@ -1,0 +1,50 @@
+sending command: command to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: command to 192.168.10.1
+sending command: takeoff to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: takeoff to 192.168.10.1
+sending command: baro? to 192.168.10.1
+from ('192.168.10.1', 8889): b'145.787308\r\n'
+Done!!! sent command: baro? to 192.168.10.1
+delay 1.0
+sending command: height? to 192.168.10.1
+from ('192.168.10.1', 8889): b'5dm\r\n'
+Done!!! sent command: height? to 192.168.10.1
+delay 2.0
+sending command: up 300 to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: up 300 to 192.168.10.1
+sending command: height? to 192.168.10.1
+from ('192.168.10.1', 8889): b'35dm\r\n'
+Done!!! sent command: height? to 192.168.10.1
+delay 1.0
+sending command: baro? to 192.168.10.1
+from ('192.168.10.1', 8889): b'149.446777\r\n'
+Done!!! sent command: baro? to 192.168.10.1
+delay 3.0
+sending command: up 400 to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: up 400 to 192.168.10.1
+sending command: height? to 192.168.10.1
+from ('192.168.10.1', 8889): b'75dm\r\n'
+Done!!! sent command: height? to 192.168.10.1
+sending command: baro? to 192.168.10.1
+from ('192.168.10.1', 8889): b'153.049606\r\n'
+Done!!! sent command: baro? to 192.168.10.1
+delay 3.0
+sending command: up 350 to 192.168.10.1
+Max timeout exceeded... command up 350
+sending command: height? to 192.168.10.1
+from ('192.168.10.1', 8889): b'100dm\r\n'
+Done!!! sent command: height? to 192.168.10.1
+delay 3.0
+sending command: baro? to 192.168.10.1
+from ('192.168.10.1', 8889): b'155.640320\r\n'
+Done!!! sent command: baro? to 192.168.10.1
+sending command: down 100 to 192.168.10.1
+Max timeout exceeded... command down 100
+delay 1.0
+sending command: land to 192.168.10.1
+from ('192.168.10.1', 8889): b'error Auto land'
+Done!!! sent command: land to 192.168.10.1

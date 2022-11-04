@@ -1,0 +1,35 @@
+sending command: command to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: command to 192.168.10.1
+sending command: takeoff to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: takeoff to 192.168.10.1
+delay 1.0
+sending command: height? to 192.168.10.1
+from ('192.168.10.1', 8889): b'5dm\r\n'
+Done!!! sent command: height? to 192.168.10.1
+delay 2.0
+sending command: up 55 to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: up 55 to 192.168.10.1
+sending command: height? to 192.168.10.1
+from ('192.168.10.1', 8889): b'10dm\r\n'
+Done!!! sent command: height? to 192.168.10.1
+delay 3.0
+sending command: up 55 to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: up 55 to 192.168.10.1
+sending command: height? to 192.168.10.1
+from ('192.168.10.1', 8889): b'15dm\r\n'
+Done!!! sent command: height? to 192.168.10.1
+delay 3.0
+sending command: down 25 to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: down 25 to 192.168.10.1
+sending command: height? to 192.168.10.1
+from ('192.168.10.1', 8889): b'14dm\r\n'
+Done!!! sent command: height? to 192.168.10.1
+delay 1.0
+sending command: land to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: land to 192.168.10.1

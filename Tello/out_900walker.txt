@@ -1,0 +1,28 @@
+sending command: command to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: command to 192.168.10.1
+sending command: takeoff to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: takeoff to 192.168.10.1
+delay 1.0
+sending command: baro? to 192.168.10.1
+from ('192.168.10.1', 8889): b'159.215958\r\n'
+Done!!! sent command: baro? to 192.168.10.1
+delay 2.0
+sending command: up 35 to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: up 35 to 192.168.10.1
+sending command: baro? to 192.168.10.1
+from ('192.168.10.1', 8889): b'159.600693\r\n'
+Done!!! sent command: baro? to 192.168.10.1
+delay 1.0
+sending command: down 15 to 192.168.10.1
+from ('192.168.10.1', 8889): b'out of range'
+Done!!! sent command: down 15 to 192.168.10.1
+sending command: baro? to 192.168.10.1
+from ('192.168.10.1', 8889): b'159.661819\r\n'
+Done!!! sent command: baro? to 192.168.10.1
+delay 1.0
+sending command: land to 192.168.10.1
+from ('192.168.10.1', 8889): b'ok'
+Done!!! sent command: land to 192.168.10.1
